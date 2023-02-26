@@ -1,0 +1,40 @@
+$font-family: "Raleway", sans-serif;
+$bacground-color: #f9efcf;
+$border-line: 1px solid #f9efcf;
+$color: #f9efcf;
+$hover-background-line: linear-gradient(90deg, #f38281 5%, #fff 95%);
+$hover-border-line: 1px solid #f38281;
+$hover-text-color: #fff;
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.footer__info__line {
+  width: 270px;
+  height: 5px;
+  background-color: $bacground-color;
+  border: $border-line;
+}
+
+.footer__info__intro {
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-variant-numeric: lining-nums;
+  color: $color;
+}
+.hover:hover > .footer__info__line {
+  background: $hover-background-line;
+  border: $hover-border-line;
+}
+
+.hover:hover > .footer__info__intro {
+  color: $hover-text-color;
+}
+

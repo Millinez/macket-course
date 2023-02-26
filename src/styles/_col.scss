@@ -1,0 +1,43 @@
+.col {
+  background: url(/src/img/gorge-1.png);
+  width: 1510px;
+  height: 868px;
+}
+
+.col-info__item {
+  padding-top: 42px;
+}
+
+.col-tablet {
+  position: relative;
+}
+
+.col-tablet__item {
+  margin-left: 160px;
+  position: absolute;
+  z-index: 4;
+}
+
+.col-tablet__item_absolute {
+  position: absolute;
+  left: 415px;
+  top: 15px;
+}
+
+.col-phone {
+  position: relative;
+}
+
+.col-phone__item {
+  position: absolute;
+  right: 380px;
+  top: 200px;
+  z-index: 6;
+}
+
+.col-phone__item_absolute {
+  position: absolute;
+  right: 385px;
+  top: 200px;
+  z-index: 5;
+}

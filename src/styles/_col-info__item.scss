@@ -1,0 +1,32 @@
+$line-background:#F38281;
+$line-border:1px solid #F38281;
+
+
+.col-info__title {
+  font-family:'Kaushan Script', cursive;
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 42px;
+}
+
+.col-info__subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.col-info__line {
+  width: 170px;
+  height: 5px;
+  background-color: $line-background;
+  border: $line-border;
+  margin-bottom: 50px;
+}
+
+.col-info__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.125rem;
+  margin-bottom: 58px;
+}

@@ -1,0 +1,37 @@
+$color-nav-item: #fff;
+$color-nav-item-hover: #f4bf87;
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 42px;
+}
+
+.header__logo {
+  width: 6.0625rem;
+  height: 1.625rem;
+  margin-right: 200px;
+}
+
+.header__nav {
+  color: $color-nav-item;
+}
+
+.nav-item {
+  color: $color-nav-item;
+  text-decoration: none;
+  margin-right: 50px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  color: $color-nav-item-hover;
+}
+
+.link-item:hover {
+  text-decoration: none;
+  color: $color-nav-item-hover;
+}
+

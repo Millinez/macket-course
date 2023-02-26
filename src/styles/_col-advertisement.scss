@@ -1,0 +1,84 @@
+$font-family: "Raleway", sans-serif;
+$border-scroll:1px solid #C6CBCD;
+$color-scrollbar-thumb:#95E1D3;
+$background-scroll-track:#F5F5F5;
+
+.col-advertisement {
+  margin-top: 42px;
+  width: 1170px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.block-advertisement__image {
+  width: 570px;
+  height: 483px;
+  margin-left: 290px;
+  margin-right: 30px;
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 570px;
+  height: 92px;
+  border:$border-scroll;
+}
+
+.block-scroll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 570px;
+  height: 92px;
+  border:$border-scroll;
+}
+
+.creativ {
+  margin-bottom: 55px;
+}
+
+.block-scroll__logo {
+  width: 36px;
+  height: 36px;
+  margin-right: 42px;
+  margin-left: 20px;
+}
+
+.block-scroll__title {
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-family:$font-family;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.block-scroll__arrow {
+  width: 30px;
+  height: 16px;
+  margin-left: 180px;
+}
+
+.block-text{
+  width: 570px;
+  height: 100px;
+  border: $border-scroll;
+  border-top: none;
+  overflow:auto;
+  margin-bottom: 50px;
+}
+
+.block-text::-webkit-scrollbar {
+  width: 7px;
+  height: 60px;
+}
+
+.block-text::-webkit-scrollbar-track {
+  background-color: $background-scroll-track;
+}
+
+.block-text::-webkit-scrollbar-thumb {
+  background: $color-scrollbar-thumb;
+}
