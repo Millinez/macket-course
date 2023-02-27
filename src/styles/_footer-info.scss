@@ -13,14 +13,14 @@ $hover-text-color: #fff;
   margin-right: 170px;
 }
 
-.footer__info__line {
+.footer-info__line {
   width: 270px;
   height: 5px;
   background-color: $bacground-color;
   border: $border-line;
 }
 
-.footer__info__intro {
+.footer-info__intro {
   font-family: $font-family;
   font-weight: 700;
   font-size: 2rem;
@@ -29,12 +29,12 @@ $hover-text-color: #fff;
   font-variant-numeric: lining-nums;
   color: $color;
 }
-.hover:hover > .footer__info__line {
+.hover:hover > .footer-info__line {
   background: $hover-background-line;
   border: $hover-border-line;
 }
 
-.hover:hover > .footer__info__intro {
+.hover:hover > .footer-info__intro {
   color: $hover-text-color;
 }
 

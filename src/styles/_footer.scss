@@ -1,0 +1,167 @@
+.footer__row {
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+// первая колонка с подписчиками
+.footer__col-first {
+  max-width: 370px;
+  margin-right: 25px;
+}
+
+.footer__logo {
+  margin-top: -40px;
+  margin-bottom:20px ;
+}
+
+.footer__subtitle {
+  max-width: 370px;
+  margin-bottom: 40px;
+  color: #c6cbcd;
+}
+
+.footer__followers {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+
+  &-number {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  &-text {
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+  }
+}
+
+.footer__separator {
+  border: 1px solid #c6cbcd;
+}
+// footer with links
+.footer_links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 57px;
+}
+
+.footer__follow {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  margin-left: -10px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-pinterest-p,
+.fa-linkedin-in,
+.fa-youtube,
+.fa-basketball,
+.fa-tiktok {
+  color: #95e1d3;
+  max-width: 9px;
+  max-height: 18px;
+}
+
+// footer__form подписка
+.footer__mail {
+  width: 234px;
+  height: 53px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  border: 1px solid #c6cbcd;
+  color: #c6cbcd;
+  border-right: none;
+}
+
+.footer__btn {
+  background-color: #95e1d3;
+  color: #fff;
+  width: 133px;
+  height: 53px;
+  border: 1px solid #c6cbcd;
+  border-left: none;
+  margin-left: -4px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+// Вторая колонка
+.footer__col-second {
+  max-width: 370px;
+  margin-right: 130px;
+}
+
+.footer__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.footer__block {
+  display: flex;
+  align-items: center;
+}
+
+.footer__photo {
+  width: 170px;
+  height: 105px;
+  margin-right: 30px;
+}
+
+.footer__signature-title {
+  width: 270px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+.footer__signature-data {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 0.8125rem;
+}
+
+// Третья колонка
+
+.footer__col-third {
+  max-width: 370px;
+  margin-right: 50px;
+}
+
+.footer__link {
+  text-transform: uppercase;
+  color: #2D3033;
+  font-size: 0.8125rem;
+  margin-top: 20px;
+}
+
+.footer__link_color {
+  color: #2D3033;
+}
+
+// Последний элемент footer-a
+
+.footer__bootom-info {
+  text-align: center;
+  margin-top: 42px;
+
+}
+
+.footer__bottom-line {
+  max-width: 1170px;
+  border: 1px solid #C6CBCD;
+}
+
+.footer__bottom-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+}
