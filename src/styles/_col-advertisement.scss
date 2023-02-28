@@ -1,7 +1,7 @@
 $font-family: "Raleway", sans-serif;
-$border-scroll:1px solid #C6CBCD;
-$color-scrollbar-thumb:#95E1D3;
-$background-scroll-track:#F5F5F5;
+$border-scroll: 1px solid #c6cbcd;
+$color-scrollbar-thumb: #95e1d3;
+$background-scroll-track: #f5f5f5;
 
 .col-advertisement {
   margin-top: 42px;
@@ -24,7 +24,7 @@ $background-scroll-track:#F5F5F5;
   align-items: center;
   width: 570px;
   height: 92px;
-  border:$border-scroll;
+  border: $border-scroll;
 }
 
 .block-scroll {
@@ -33,7 +33,7 @@ $background-scroll-track:#F5F5F5;
   align-items: center;
   width: 570px;
   height: 92px;
-  border:$border-scroll;
+  border: $border-scroll;
 }
 
 .creativ {
@@ -50,7 +50,7 @@ $background-scroll-track:#F5F5F5;
 .block-scroll__title {
   margin-left: 50px;
   text-transform: uppercase;
-  font-family:$font-family;
+  font-family: $font-family;
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -67,15 +67,17 @@ $background-scroll-track:#F5F5F5;
   height: 42px;
 }
 
-.block-text{
+// добавил scroll-элемент
+.block-text {
   width: 570px;
   height: 100px;
   border: $border-scroll;
   border-top: none;
-  overflow:auto;
+  overflow: auto;
   margin-bottom: 50px;
 }
 
+// Изменил внешний стиль scroll-элемента
 .block-text::-webkit-scrollbar {
   width: 7px;
   height: 60px;

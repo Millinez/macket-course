@@ -1,6 +1,6 @@
 $color-nav-item: #fff;
 $color-nav-item-hover: #f4bf87;
-
+// section:header
 .header {
   display: flex;
   justify-content: space-around;
@@ -24,7 +24,7 @@ $color-nav-item-hover: #f4bf87;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
-
+// добавил псевдокласс :hover
 .nav-item:hover {
   text-decoration: underline;
   color: $color-nav-item-hover;
@@ -34,4 +34,3 @@ $color-nav-item-hover: #f4bf87;
   text-decoration: none;
   color: $color-nav-item-hover;
 }
-

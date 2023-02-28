@@ -11,7 +11,7 @@
 
 .footer__logo {
   margin-top: -40px;
-  margin-bottom:20px ;
+  margin-bottom: 20px;
 }
 
 .footer__subtitle {
@@ -40,7 +40,7 @@
 .footer__separator {
   border: 1px solid #c6cbcd;
 }
-// footer with links
+// footer с элементами links
 .footer_links {
   display: flex;
   justify-content: space-around;
@@ -137,13 +137,13 @@
 
 .footer__link {
   text-transform: uppercase;
-  color: #2D3033;
+  color: #2d3033;
   font-size: 0.8125rem;
   margin-top: 20px;
 }
 
 .footer__link_color {
-  color: #2D3033;
+  color: #2d3033;
 }
 
 // Последний элемент footer-a
@@ -151,12 +151,11 @@
 .footer__bootom-info {
   text-align: center;
   margin-top: 42px;
-
 }
 
 .footer__bottom-line {
   max-width: 1170px;
-  border: 1px solid #C6CBCD;
+  border: 1px solid #c6cbcd;
 }
 
 .footer__bottom-text {

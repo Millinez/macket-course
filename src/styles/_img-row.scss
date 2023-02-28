@@ -1,4 +1,11 @@
-$color:#fff;
+$color: #fff;
+
+// Добавил свойство display:flex
+.col-info__img-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
 
 .img-item {
   width: 370px;
@@ -6,6 +13,7 @@ $color:#fff;
   margin-right: 30px;
 }
 
+// Расположение картинок с помощью свойства position
 .block-img_inside {
   position: relative;
 }
